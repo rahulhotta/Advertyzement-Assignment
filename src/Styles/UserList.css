@@ -1,0 +1,26 @@
+.user-list
+{
+    padding:4rem 0 ;
+}
+
+.msg
+{
+    position:absolute;
+    top:40vh;
+    padding: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+@media screen and (min-width: 720px) {
+  .user-list
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 6rem;
+  }
+  .msg
+    {
+        left: 30vw;   
+    }
+}
